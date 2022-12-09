@@ -106,13 +106,6 @@ st.write("**Confusion Matrix**")
 st.write(figure)
 
 
-st.write("**XGBoost Tree**")
-import xgboost as xgb
-xgboosttree = plt.figure(figsize=(20,20))
-xgb.plot_tree(model, ax=plt.gca());
-st.write(xgboosttree)
-
-
 
 
 # fit model on training data
