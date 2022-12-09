@@ -7,3 +7,4 @@ matplotlib
 seaborn==0.11.2
 xgboost
 graphviz
+sudo apt-get install graphviz
